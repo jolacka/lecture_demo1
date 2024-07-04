@@ -1,0 +1,45 @@
+/* Set the font-family of the entire document to Arial, sans-serif */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color for the <header> */
+  header {
+    background-color: #a34caf;
+    color: white; 
+    text-align: center;
+    padding: 1em;
+  }
+  
+  /* Style the <nav> links with a different color and remove the default underline */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 1em;
+  }
+  
+  nav a {
+    color: #000; /* Different color for links */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  nav ul li a:hover {
+    text-decoration: none;
+  }
+  
+  /* Add some padding to the <footer> */
+  footer {
+    background-color: #d6c7f2;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
